@@ -72,6 +72,10 @@ function endGame(){
     p.classList.add('button');
     p.innerHTML = `<h2 id="newGame">Start new Game</h2>`;
     p.style.cursor = 'pointer';
+    p.style.backgroundColor = '#fff';
+    p.style.color='#000';
+    p.style.padding  = '.5em .7em';
+    p.style.borderRadius= '.3em' ;
     startOver.appendChild(p);
     playGame = false;
     newGame();
